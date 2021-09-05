@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: cornflowerblue;
+    display:inline-block;
+    float:left;
+    margin-left:75px;
+}
+
+
+nav {
+  display:inline-block;
+  float:right;
+  font-size: 20px;
+  background-color: cyan;
+  margin-right: 75px;
+  margin-top: 40 px; 
+ 
+}
+
+.header {
+    height:250px;
+    background-color: darkslategrey;
+    
+}
+.categories {
+    border-right-style: solid;
+    margin-right: 1385px;
+
+}
