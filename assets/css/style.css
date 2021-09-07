@@ -33,7 +33,7 @@ section {
 
 
 .header {
-    height:250px;
+    height:112px;
     background-color: darkslategray;
     color: white;
     
@@ -85,4 +85,8 @@ ul li {
 
 #aboutme {
     display:block;
+}
+#work {
+  
+
 }
