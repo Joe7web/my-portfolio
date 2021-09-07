@@ -6,11 +6,12 @@ html {
     scroll-behavior: smooth;
   }
 
-h1 {
+.header h1 {
+    display: flex;
+    position: absolute;
     font-size: 50px;
     background-color: cornflowerblue;
     display:inline-block;
-    float:left;
     margin-left:75px;
 }
 
@@ -25,6 +26,9 @@ nav {
   margin-top: 40px; 
   padding-right:40px;
   
+}
+body {
+    background-color: rgb(210, 220, 228);
 }
 
 section {
@@ -72,7 +76,7 @@ ul li {
     line-height: 150px;
 }
 .content #work {
-    line-height: 350px;
+    line-height: 150px;
 
 }
 .content #contactme {
@@ -90,3 +94,13 @@ ul li {
   
 
 }
+
+#contactme {
+
+}
+
+@media and (max width: 992px) {
+    
+}
+
+@media and (max-width:768px)
