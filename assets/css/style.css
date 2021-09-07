@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
@@ -32,7 +33,6 @@ section {
 
 
 .header {
- 
     height:250px;
     background-color: darkslategray;
     color: white;
@@ -42,11 +42,25 @@ section {
 ul li {
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none;
-    
+    list-style-type: none;   
 
 }
+
+.toppicture {
+
+        height: 150px;
+        width: 100%;
+        background-image: url(../images/background-pic.jpeg);
+        background-size: cover;
+        background-position: top;
+        display: flex;
+}
+
+
 .content {
+  
+    
+    
    
 }
 
@@ -67,5 +81,8 @@ ul li {
 }
 .content span {
     text-align: center;
-    
+    }
+
+#aboutme {
+    display:block;
 }
