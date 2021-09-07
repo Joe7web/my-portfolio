@@ -1,9 +1,12 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     background-color: cornflowerblue;
     display:inline-block;
     float:left;
@@ -12,22 +15,52 @@ h1 {
 
 
 nav {
-  display:inline-block;
-  float:right;
+  float: right;
   font-size: 20px;
   background-color: cyan;
-  margin-right: 75px;
-  margin-top: 40 px; 
- 
+  margin-right: 65px;
+  margin-top: 40px; 
+  padding-right:40px;
 }
+
+section {
+    
+}
+
 
 .header {
     height:250px;
     background-color: darkslategrey;
+    color: white;
     
 }
-.categories {
-    border-right-style: solid;
-    margin-right: 1385px;
 
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+
+}
+.content {
+   
+}
+
+.content h2 {
+    border-right-style: solid;
+    margin-right: 1400px;
+}
+.content #aboutme {
+    line-height: 150px;
+}
+.content #work {
+    line-height: 350px;
+
+}
+.content #contactme {
+    line-height: 75px;
+
+}
+.content span {
+    text-align: center;
+    
 }
