@@ -14,20 +14,23 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-  font-size: 20px;
-   width: 50%;
-   height: 100%;
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
 }
 
 #logo-container {
     height: 50%;
     width: 25%;
-    background-color: lightgreen;
+    background-color: darklategray;
     display: flex;
     align-items: center;
     justify-content:flex-start;
 }
 
+#logo {
+   padding-left: 25px;
+}
 
 header {
     height:112px;
@@ -135,6 +138,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 800;
+    font-size: large;
 }
 
 
