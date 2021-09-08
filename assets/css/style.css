@@ -1,10 +1,12 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    /*border: 2px solid black;*/
    
 }
 html {
     scroll-behavior: smooth;
+    
   }
 
 body {
@@ -39,6 +41,13 @@ header {
     display:flex; 
     justify-content: space-between;
     align-items: center;    
+}
+
+#joepic {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 ul {
@@ -86,7 +95,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 23%;
     border-right: 5px solid teal;
     margin-right:5px;
     padding-right: 70px; 
@@ -106,7 +115,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 75%;
+    width: 22%;
     border-right: 5px solid teal;
     margin-right:5px;  
 }
@@ -125,7 +134,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 23%;
     border-right: 5px solid teal;
     margin-right:5px;
     margin-top: 8px;  
