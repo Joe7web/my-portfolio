@@ -1,10 +1,55 @@
 # my-portfolio
-# my-portfolio website
-## 
 
-Horiseon is digital marking company that needed to refactor its existing code for their main website. The goal was to upgrade their website's accessibility and search engine optimization. Another goal was to clean up the existing code and apply a more appropriate HTML semantic structure for easier readability and customization in the future.
+## My Personal Wed Development Portfolio
 
-As a forward-looking company, Horiseon was aware that it had to upgrade it user accessibility. Also, with being a company that offered SEO service to clients - they needed to make sure their SEO was where it needed to be.
+I created a professional website to showcase my skills and abilities for future employers and clients.
 
-The accessibility was solved by adding "alt" attributes to all images on the landing page.  We were able to increase their SEO by adding a title to the head.  Finally, by removing all div elements in the index.html page and applying a semantic structure to the HTML we were able to provide better readability and ease the customization for future programming on their website.
+It will be continually upgraded and improved as my future projects are added to demostrate my full stack abilities.
+
+By leveraging GitHub, the accessbility to these projects and repositories are convenient and easy to update.
+
+
+Screen shot of website:
+
+
+I was fortunate to have some assistance from Frank Craven and Leif Hetland.  
+
+
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+## Table of Contents (Optional)
+If your README is long, add a table of contents to make it easy for users to find what they need.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+## Installation
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+## Usage
+Provide instructions and examples for use. Include screenshots as needed.
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
+## Credits
+List your collaborators, if any, with links to their GitHub profiles.
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+If you followed tutorials, include links to those here as well.
+## License
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+---
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+## Badges
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+## Features
+If your project has a lot of features, list them here.
+## How to Contribute
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+## Tests
+
+
 
