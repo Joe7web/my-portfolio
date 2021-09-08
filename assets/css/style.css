@@ -1,3 +1,7 @@
+
+:root {
+    --blue:rgb(210, 220, 228);
+}
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -10,7 +14,7 @@ html {
   }
 
 body {
-    background-color: rgb(210, 220, 228);
+    background-color: var(--blue);
 }
 nav {
     display: flex;
@@ -89,6 +93,8 @@ a {
 #aboutme {
     display:flex;
     margin: 20px;
+    font-weight: bold;
+    margin-left: 52px;
 }
 
 #about-header {
@@ -125,9 +131,13 @@ a {
     margin: 25px;
 }
 
+
+
+
 #contactme-section {
     display: flex;
     margin:10 px;
+    margin-left: 4px;
 }
 
 #contactme-header {
