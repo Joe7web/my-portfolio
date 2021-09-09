@@ -40,17 +40,19 @@ nav {
 
 header {
     height:112px;
-    background-color: darkslategray;
+    background-color: teal;
     color:whitesmoke;
     display:flex; 
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    
 }
 
 #joepic {
     display:flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid black;
     
 }
 
@@ -82,12 +84,13 @@ a {
 
 .toppicture {
 
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url(../images/background-pic.jpeg);
     background-size: cover;
     background-position: top;
     display: flex;
+    border: 5px solid teal;
 }
 
 #aboutme {
@@ -111,6 +114,10 @@ a {
  margin: 25px;
 }
 
+p {
+    font-weight: bold;
+}
+
 #work-section {
     display: flex;
     margin: 25px;
@@ -130,7 +137,9 @@ a {
     width:80%;
     margin: 25px;
 }
-
+ #work-pics img{
+     border: 3px solid black;
+ }
 
 
 
@@ -165,5 +174,11 @@ a {
     color:black
 }
 
+footer {
+    text-align: center;
+    font-size: 15px;
+    color:teal;
+
+}
 
 
