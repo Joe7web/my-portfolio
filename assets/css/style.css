@@ -1,11 +1,11 @@
-
+/*customized variable for consistency through out page*/
 :root {
     --blue:rgb(210, 220, 228);
 }
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    /*border: 2px solid black;*/
+   
    
 }
 html {
@@ -23,12 +23,13 @@ nav {
     font-size: 20px;
     width: 50%;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 #logo-container {
     height: 50%;
     width: 25%;
-    background-color: darklategray;
+    background-color: teal;
     display: flex;
     align-items: center;
     justify-content:flex-start;
@@ -46,6 +47,7 @@ header {
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 #joepic {
@@ -53,6 +55,7 @@ header {
     justify-content: center;
     align-items: center;
     border: 3px solid black;
+    
     
 }
 
@@ -83,7 +86,7 @@ a {
  }
 
 .toppicture {
-
+/*used image for background*/
     height: 250px;
     width: 100%;
     background-image: url(../images/background-pic.jpeg);
@@ -168,6 +171,7 @@ p {
     align-items: center;
     font-weight: 800;
     font-size: large;
+    flex-wrap: wrap;
 }
 
 #contactme-row a {
@@ -180,5 +184,16 @@ footer {
     color:teal;
 
 }
-
-
+/*Contents to wrap and stack on smaller screen*/
+  
+ 
+  @media screen and (max-width: 576px) {
+    
+      #contactme-row {
+        flex-wrap: wrap;     
+      }
+  }
+   
+    
+ 
+      
